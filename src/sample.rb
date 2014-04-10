@@ -1,4 +1,4 @@
-puts 'Hello People'
+puts 'Hello Ashk'
 for i in 0..3
   puts 'the index is %s' %i
 end
