@@ -1,4 +1,4 @@
-puts 'Hello People'
+puts 'Hello Ashk'
 for i in 0..3
   puts 'the index is %s' %i
 end
@@ -6,7 +6,7 @@ end
 a = [1,'hello',3.14]
 
 puts "\nThe first element is #{a[0]} \n"
-a[4]= 'Ozge'
+a[4]= 'Yvan_branch'
 puts "The array is now #{a.inspect}\n"
 
 
