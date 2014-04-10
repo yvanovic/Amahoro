@@ -6,7 +6,8 @@ end
 a = [1,'hello',3.14]
 
 puts "\nThe first element is #{a[0]} \n"
-a[4]= 'Simona'
+a[4]= 'Yvan_branch'
+a[10]='simona'
 puts "The array is now #{a.inspect}\n"
 
 
