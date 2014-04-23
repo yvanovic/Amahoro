@@ -1,0 +1,6 @@
+1,3c1
+< puts 'Hello Eveybody'
+< 3.times { puts "Happy Easter Holiday, Enjoy" }
+< 
+---
+> puts 'Hello World'

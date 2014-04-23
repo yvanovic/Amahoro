@@ -1,12 +1,7 @@
-puts 'Hello Eveybody'
-3.times { puts "Happy Easter Holiday, Enjoy" }
-
+puts 'Hello World'
 a = [1,'hello',3.14,2.71]
 
 puts "The array before #{a.inspect}"
-
-a[4]= 'Yvan_branch'
-a[10]='simona'
 
 for i in 0..a.length-1
   puts "the %s element of the table is #{a[i]}" %i
