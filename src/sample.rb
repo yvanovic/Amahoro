@@ -28,10 +28,10 @@ class Person
 end
 
 #Create an Instance object
-person_1 = Person.new("John",80,1.83)
+person_1 = Person.new("Hannes",85,1.73)
 puts "\nThe body mass index of %s"%person_1.n + ' is %.2f'%person_1.bmi()
 
-person_2 = Person.new("Richard",75,1.65)
+person_2 = Person.new("Richard the second",65,1.65)
 puts "\nThe body mass index of %s"%person_2.n + ' is %.2f'%person_2.bmi()
 
 
