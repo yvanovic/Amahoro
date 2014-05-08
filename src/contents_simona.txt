@@ -1,7 +1,0 @@
-total 32
-drwxr-xr-x  6 simonagrothues  staff   204  8 May 10:25 .
-drwxr-xr-x  8 simonagrothues  staff   272  8 May 10:20 ..
--rw-r--r--@ 1 simonagrothues  staff  6148 24 Apr 10:32 .DS_Store
--rw-r--r--  1 simonagrothues  staff     0  8 May 10:25 contents_simona.txt
--rw-r--r--  1 simonagrothues  staff    34  8 May 10:24 dir_simona.txt
--rw-r--r--  1 simonagrothues  staff  1230  8 May 10:20 sample.rb
