@@ -33,7 +33,7 @@ puts "\nThe body mass index of %s"%person_2.n + ' is %.2f'%person_2.bmi()
 
 puts 'russian red'
 puts 'Velence'
-puts 'Velence: this name is messed up on purpose'
+puts 'Velence: this name is full of beauty'
 puts 'Badacsony'
 puts 'Velence'
 puts 'debug line for Badacsony'
