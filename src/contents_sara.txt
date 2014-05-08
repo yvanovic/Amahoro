@@ -1,3 +1,0 @@
-contents_sara.txt
-dir_sara.txt
-sample.rb
