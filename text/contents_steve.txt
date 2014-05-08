@@ -1,0 +1,10 @@
+.
+..
+.DS_Store
+.git
+contents_steve.txt
+dir_steve.txt
+finnish.txt
+fishmongers.txt
+src
+translation.txt
