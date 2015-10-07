@@ -1,35 +1,33 @@
 puts 'Hello Eveybody'
-3.times { puts "Happy Easter Holiday, Enjoy" }
+2.times { puts "Happy Easter Holiday, Enjoy\n\n" }
 
 a = [1,'hello',3.14,2.71]
 
-puts "The array before #{a.inspect}"
+puts "The array before #{a.inspect} \n\n"
 
-for i in 0..a.length 
+(0..a.length-1).each { |i|
   puts "the %s element of the table is #{a[i]}" %i
-end
+}
 
 # Define a Class to Calculate your BMI
 
 class Person
-  attr_accessor :n, :w, :h
+  attr_reader :name, :weight, :height
   def initialize(name,weight,height)
-    @n=name
-    @w=weight
-    @h=height
+    @name = name ,@weight = weight, @height = height
   end
 
   def bmi()
-    return w/h/h
+    return weight/(height*height)
   end
 end
 
 #Create an Instance object
-person_1 = Person.new("Kelemen",80,1.83)
-puts "\nThe body mass index of %s"%person_1.n + ' is %.2f'%person_1.bmi()
+person_1 = Person.new("Jon",73,1.83)
+puts "\nThe body mass index of %s"%person_1.name + ' is %.2f'%person_1.bmi()
 
-person_2 = Person.new("Richard",75,1.65)
-puts "\nThe body mass index of %s"%person_2.n + ' is %.2f'%person_2.bmi()
+person_2 = Person.new("Jesus",85,1.65)
+puts "\nThe body mass index of %s"%person_2.name + ' is %.2f'%person_2.bmi()
 
 puts 'russian red'
 puts 'Velence'
