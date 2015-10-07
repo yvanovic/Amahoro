@@ -5,7 +5,7 @@ a = [1,'hello',3.14,2.71]
 
 puts "The array before #{a.inspect}"
 
-for i in 0..a.length
+for i in 0..a.length 
   puts "the %s element of the table is #{a[i]}" %i
 end
 
