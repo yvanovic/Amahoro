@@ -1,3 +1,0 @@
-content.simona.txt
-dir.simona.txt
-sample.rb

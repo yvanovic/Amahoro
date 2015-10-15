@@ -1,4 +1,0 @@
-contents_mike.txt
-dir_mike.txt
-sample.rb
-blah blah blah

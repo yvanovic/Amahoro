@@ -1,3 +1,0 @@
-contents_pooja.txt
-
-sample.rb
