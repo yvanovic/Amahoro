@@ -23,9 +23,8 @@ class Person
 end
 
 #Create an Instance object
-person_1 = Person.new("Dia",54,1.60)
-puts "\nThe body mass index of %s"%person_1.name + ' is %.2f'%person_1.bmi()
+person_1 = Person.new("Jon",73,1.83)
+puts "\nThe body mass index of %s"%person_1.name + ' is %.2f'%person_1.bmi() +'. Check a BMI chart for your health status.'
 
-person_2 = Person.new("Dia2",85,1.65)
-puts "\nThe body mass index of %s"%person_2.name + ' is %.2f'%person_2.bmi()
-
+person_2 = Person.new("Jesus",85,1.65)
+puts "\nThe body mass index of %s"%person_2.name + ' is %.2f'%person_2.bmi() + '. Check a BMI chart for your health status.'
