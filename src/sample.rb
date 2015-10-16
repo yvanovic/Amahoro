@@ -24,7 +24,7 @@ end
 
 #Create an Instance object
 person_1 = Person.new("Jon",1.83)
-puts "\n%s"%person_1.name + ' is %.2f'%person_1.feet() 'feet tall'
+puts "\n%s"%person_1.name + ' is %.2f'%person_1.feet() + ' feet tall'
 
 person_2 = Person.new("Jesus",1.65)
-puts "\n%s"%person_2.name + ' is %.2f'%person_2.feet() 'feet tall'
+puts "\n%s"%person_2.name + ' is %.2f'%person_2.feet() + ' feet tall'
