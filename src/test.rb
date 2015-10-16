@@ -1,7 +1,7 @@
-print "What is your name?:"
+print "What is your Name?:"
 first_name = gets.chomp.downcase.capitalize
 
-print "What is your surname?:"
+print "What is your Surname?:"
 surname = gets.chomp.downcase.capitalize
 
 print "What is your favourite colour"
