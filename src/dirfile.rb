@@ -13,9 +13,13 @@
 # 	puts "#{file_name} :=> #{File.size(file_name)}"
 # end
 
-Dir.glob('/Users/yvanovic/**/**/*.{pdf}').sort_by{|file_name| File.size(file_name)}.reverse[0..19].each_with_index do |file_name, index|
+Dir.glob('/Users/diana.vadai/**/**/*.{pdf}').sort_by{|file_name| File.size(file_name)}.reverse[0..19].each_with_index do |file_name, index|
 	puts "#{index} #{file_name} ==> SIZE is #{File.size(file_name)/1048576} MB"
 end
 
 
 
+
+Dir.glob('/Users/diana.vadai/**/**/*.{pdf}').sort_by{|file_name| File.size(file_name)}.reverse[0..19].each_with_index do |file_name, index|
+	puts "#{index} #{file_name} ==> SIZE is #{File.size(file_name)/1048576} MB"
+end
