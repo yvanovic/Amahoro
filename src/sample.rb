@@ -1,7 +1,7 @@
-puts 'Catarina is being loud. Warn her two times:'
-2.times { puts "Shut up, Catarina\n\n" }
+puts 'Hello Eveybody'
+2.times { puts "Happy Easter Holiday, Enjoy\n\n" }
 
-a = ['numbers in portuguese','um','dois','tres']
+a = [1,'hello',3.14,2.71]
 
 puts "The array before #{a.inspect} \n\n"
 
@@ -9,22 +9,22 @@ puts "The array before #{a.inspect} \n\n"
   puts "the %s element of the table is #{a[i]}" %i
 }
 
-# Define a Class to Calculate your height in feet
+# Define a Class to Calculate your BMI
 
 class Person
-  attr_reader :name, :height
-  def initialize(name,height)
-    @name = name , @height = height
+  attr_reader :name, :weight, :height
+  def initialize(name,weight,height)
+    @name = name ,@weight = weight, @height = height
   end
 
-  def feet()
-    return height*(3.28)
+  def bmi()
+    return weight/(height*height)
   end
 end
 
 #Create an Instance object
-person_1 = Person.new("Jon",1.83)
-puts "\n%s"%person_1.name + ' is %.2f'%person_1.feet() + ' feet tall'
+person_1 = Person.new("Jon",73,1.83)
+puts "\nThe body mass index of %s"%person_1.name + ' is %.2f'%person_1.bmi()
 
-person_2 = Person.new("Jesus",1.65)
-puts "\n%s"%person_2.name + ' is %.2f'%person_2.feet() + ' feet tall'
+person_2 = Person.new("Jesus",85,1.65)
+puts "\nThe body mass index of %s"%person_2.name + ' is %.2f'%person_2.bmi()
