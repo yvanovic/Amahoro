@@ -15,7 +15,7 @@ else
   print "That name is amazing!"
 end
 
-  if favourite_colour == "blue".downcase.capitalize!
+if favourite_colour == "blue".downcase.capitalize!
   print "I hate that colour"
 elsif print "I LOVE that colour!"
 end
